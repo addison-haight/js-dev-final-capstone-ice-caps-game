@@ -21,7 +21,7 @@ let difficulty = "hard";
  *
  */
 function randomInteger(min, max) {
-  // return Math.floor(Math.random() * (max - min + 1)) + min;
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 /**
@@ -41,6 +41,15 @@ function randomInteger(min, max) {
  */
 function setDelay(difficulty) {
   // TODO: Write your code here.
+  if (difficulty === "easy") {
+    return 1500;
+  }
+  if (difficulty === "normal") {
+    return 1000;
+  }
+  if (difficulty === "hard") {
+    randomInteger(600, 1200);
+  }
   
 }
 
@@ -60,7 +69,18 @@ function setDelay(difficulty) {
  */
 function chooseHole(holes) {
   // TODO: Write your code here.
-
+  const index = randomInteger(0, 8);
+  // 2. Get a random hole with the random index (e.g., const hole = holes[index]).
+  const hole = holes[index];
+  // 3. if hole === lastHole, then call chooseHole(holes) again because you don't want to return the same hole.
+  if (hole === lastHole) {
+    return chooseHole(holes);
+  }
+  // 4. if hole is not the same as the lastHole, then keep track of it (lastHole = hole) and return the hole.
+  else {
+    lastHole = hole;
+    return hole;
+  }
 }
 
 /**
