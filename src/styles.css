@@ -52,7 +52,7 @@ h2 {
 
 .grid {
   width: 600px;
-  height: 400px;
+  height: 300px;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -63,6 +63,7 @@ h2 {
   flex: 1 0 33.33%;
   overflow: hidden;
   position: relative;
+  height: 33.33%;
 }
 
 .hole:after {
