@@ -48,7 +48,7 @@ function setDelay(difficulty) {
     return 1000;
   }
   if (difficulty === "hard") {
-    randomInteger(600, 1200);
+    return randomInteger(600, 1200);
   }
   
 }
@@ -125,8 +125,8 @@ function gameOver() {
 *
 */
 function showUp() {
-  let delay = setDelay(); // TODO: Update so that it uses setDelay()
-  const hole = chooseHole();  // TODO: Update so that it use chooseHole()
+  let delay = setDelay(difficulty); // TODO: Update so that it uses setDelay()
+  const hole = chooseHole(holes);  // TODO: Update so that it use chooseHole()
   return showAndHide(hole, delay);
 }
 
@@ -202,7 +202,10 @@ function clearScore() {
 function updateTimer() {
   // TODO: Write your code here.
   // hint: this code is provided to you in the instructions.
-  
+  if (time > 0) {
+    time -= 1;
+    timerDisplay.textContent = time;
+  }
   return time;
 }
 
@@ -214,7 +217,7 @@ function updateTimer() {
 */
 function startTimer() {
   // TODO: Write your code here
-  // timer = setInterval(updateTimer, 1000);
+  timer = setInterval(updateTimer, 1000);
   return timer;
 }
 
