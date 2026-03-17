@@ -4,7 +4,7 @@ A game developed as a final capstone for the Web Development Certificate through
 
 Game can be played here: https://addison-haight.github.io/js-dev-final-capstone-ice-caps-game/
 
-https://github.com/addison-haight/js-dev-final-capstone-ice-caps-game/blob/main/assets/sample-game.mov
+![Game Demo](./assets/sample-game.gif)
 
 # Outline of the assingment requirements can be found below
 
