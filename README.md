@@ -1,8 +1,10 @@
 # Save the Polar Bears
 
-A game developed as a final capstone for the Web Development Certificate through Chegg skills. I forked some starter code for this assingment and the final game is the result.
+A game developed as a final capstone for the Web Development Certificate through Chegg skills. I forked some starter code for this assignment and the final game is the result.
 
 Game can be played here: https://addison-haight.github.io/js-dev-final-capstone-ice-caps-game/
+
+https://github.com/addison-haight/js-dev-final-capstone-ice-caps-game/blob/main/assets/sample-game.mov
 
 # Outline of the assingment requirements can be found below
 
