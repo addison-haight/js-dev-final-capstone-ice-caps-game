@@ -242,9 +242,11 @@ function startTimer() {
 */
 function whack(event) {
   // TODO: Write your code here.
-  console.log("chomp!");
+  moles.forEach(
+    mole => mole.addEventListener("click", whack));
   updateScore();
   return points;
+  console.log("chomp!");
 }
 
 /**
