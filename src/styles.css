@@ -74,7 +74,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  cursor: url('https://github.com/addison-haight/js-dev-final-capstone-ice-caps-game/blob/main/assets/polar-bear-cursor.png?raw=true'), pointer;
+  cursor: url('https://github.com/addison-haight/js-dev-final-capstone-ice-caps-game/blob/main/assets/polar-bear.png?raw=true'), pointer;
 }
 
 .hole {
