@@ -27,7 +27,7 @@ h2 {
 
 #instructions {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: black;
   border: 1px solid black;
   background-color: lightgray;
@@ -42,6 +42,24 @@ h2 {
     font-size: 30px;
     border-radius: 5px;
     background-color: red;
+    color: black;
+    margin: 0 auto;
+}
+
+.difficulty-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 40%;
+    padding: 10px 10px 10px 20px;
+}
+
+.difficulty {
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: black;
     color: white;
     margin: 0 auto;
 }
@@ -56,7 +74,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  cursor: url('./assets/mallet.png'), pointer;
+  cursor: url('https://github.com/addison-haight/js-dev-final-capstone-ice-caps-game/blob/main/assets/polar-bear-cursor.png?raw=true'), pointer;
 }
 
 .hole {
@@ -82,8 +100,8 @@ h2 {
 
 .mole {
   /*background:url('./assets/mole.png') bottom center no-repeat;*/
-  background:url('https://github.com/Thinkful-Ed/js-dev-final-capstone-starter/blob/main/assets/mole.png?raw=true') bottom center no-repeat;
-  background-size: 40%;
+  background:url('https://github.com/addison-haight/js-dev-final-capstone-ice-caps-game/blob/main/assets/seal.png?raw=true') bottom center no-repeat;
+  background-size: contain;
   position: absolute;
   top: 100%;
   width: 100%;
