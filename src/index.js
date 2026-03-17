@@ -281,8 +281,16 @@ function setDuration(duration) {
 function stopGame(){
   // stopAudio(song);  //optional
   clearInterval(timer);
+  const modal = document.querySelector('#game-over-modal');
+  const message = document.querySelector('#game-over-message');
+  message.textContent = `Game Over! Final Score: ${points}`;
+  modal.style.display = 'flex';
   return "game stopped";
 }
+
+document.querySelector('#close-modal').addEventListener('click', () => {
+  document.querySelector('#game-over-modal').style.display = 'none';
+});
 
 /**
 * This function starts the game when the `startButton` is clicked and initializes the game by performing the following steps: 
