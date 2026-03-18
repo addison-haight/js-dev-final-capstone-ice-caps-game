@@ -37,7 +37,7 @@ Game can be played here: https://addison-haight.github.io/js-dev-final-capstone-
   - Worked on customizations in the same way (one function, one piece at a time)
 
 # Github commit history
-
+https://github.com/addison-haight/js-dev-final-capstone-ice-caps-game/commits
 
 
 
