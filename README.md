@@ -6,8 +6,42 @@ Game can be played here: https://addison-haight.github.io/js-dev-final-capstone-
 
 ![Game Demo](./assets/sample-game.gif)
 
-# Outline of the assingment requirements can be found below
+# Questions for the final capstone:
 
+1. The game you chose to develop
+  - I choose to develop the whack-a-mole game because I had some ideas for enhancements looking at the original game and it seemed more interesting to develop.
+  
+2. A plan detaining the functions, features, algorithms, and other coding choices for the project.
+  - In addition to the functions that were laid out in the user stories, I decided to add the following features:
+  - Let the user decide what level of game they would like to play
+  - A set of instructions
+  - A different theme. I went with arctic themed (polar bears, seals, and some ice bergs) to mimic something that happens in real life.
+  - A pop up alerting the user the game is over (utilizes the countdown timer) and displays the final score to the user. This gives the user a better playing experience so they know when the game is over. 
+
+4. An implementation plan describing how you intend to implement your plan
+  - The plan was pretty well laid out. I read through all of the user stories to start, then started working through them in order. After each of the user story sections, I made sure to commit my changes. After each of the sub-sections of stories (these were mostly outlined by function), I tested the changes on my local machine to make sure what I expected is what was happening on the site on my local machine. If I did not get the desired outcome, I went back to the function to work through it until I did get the desired outcome.
+
+4. A reflection of the coding trade-offs you made for the project.
+  - I had to make some changes on the images I originally wanted to use for my project. They were too big and then didn't fit into the layout of the screen. I opted for some different images that fit into the arctic theme a little better. 
+
+5. Justification of your choices, challenges, and debugging/troubleshooting moments.
+  - Getting the original whack-a-mole game to work was pretty straight forward with the user stories outlined for the project. Most of my issues came around the customizations. I ran into some issues around image size and had to learn how to add assets to the assets folder to use those images as links in the css doc. I used an online photo editor and stock free photos for the sprites. For debugging the issues, I plugged the error codes I was receiving into Claude, which told me that my images were too large to upload to Github and that they needed to be smaller. 
+
+6. A list of the AI tools used with justification.
+  - For user stories 01-06, I updated them with the knowledge I had from the course without a lot of AI use besides some formatting. I have the LiveServer and Prettier extensions installed in VSCode. For the customizations, I used Claude code to help develop the game over section and the final score to get some practice with building with AI.
+  - I ran into a few issues with using the terminal to commit changes to Github and used Claude to help explain what the error codes meant to I could resolve them. 
+
+7. A short 100 to 150 word (or 3 bullets) summary regarding the project process
+  - Read through requirements and worked through user stories
+  - Tested each function as it was built using the LiveServer extension on my local computer -- did I get the intended result. Committed after each user story
+  - Worked on customizations in the same way (one function, one piece at a time)
+
+# Github commit history
+
+
+
+
+# Original Instructions from the Assignment
 ## Steps to complete
 
 To complete this project, you must do the following:
