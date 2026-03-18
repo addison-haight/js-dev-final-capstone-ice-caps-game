@@ -18,7 +18,7 @@ Game can be played here: https://addison-haight.github.io/js-dev-final-capstone-
   - A different theme. I went with arctic themed (polar bears, seals, and some ice bergs) to mimic something that happens in real life.
   - A pop up alerting the user the game is over (utilizes the countdown timer) and displays the final score to the user. This gives the user a better playing experience so they know when the game is over. 
 
-4. An implementation plan describing how you intend to implement your plan
+3. An implementation plan describing how you intend to implement your plan
   - The plan was pretty well laid out. I read through all of the user stories to start, then started working through them in order. After each of the user story sections, I made sure to commit my changes. After each of the sub-sections of stories (these were mostly outlined by function), I tested the changes on my local machine to make sure what I expected is what was happening on the site on my local machine. If I did not get the desired outcome, I went back to the function to work through it until I did get the desired outcome.
 
 4. A reflection of the coding trade-offs you made for the project.
