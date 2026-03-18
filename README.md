@@ -39,9 +39,9 @@ Game can be played here: https://addison-haight.github.io/js-dev-final-capstone-
 # Github commit history
 https://github.com/addison-haight/js-dev-final-capstone-ice-caps-game/commits
 
+#
 
-
-# Original Instructions from the Assignment
+## Original Instructions from the Assignment
 ## Steps to complete
 
 To complete this project, you must do the following:
