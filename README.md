@@ -36,8 +36,14 @@ Game can be played here: https://addison-haight.github.io/js-dev-final-capstone-
   - Tested each function as it was built using the LiveServer extension on my local computer -- did I get the intended result. Committed after each user story
   - Worked on customizations in the same way (one function, one piece at a time)
 
-# Github commit history
+# Github commit history & screenshots
 https://github.com/addison-haight/js-dev-final-capstone-ice-caps-game/commits
+
+![development-screenshot-1](assets/screenshot-index-html-file-vscode.png)
+![development-screenshot-2](assets/screenshot-index-js-vscode.png)
+![development-screenshot-3](assets/screenshot-styles-css-vscode.png)
+![development-screenshot-4](assets/screenshot-npm-test.png)
+
 
 #
 
